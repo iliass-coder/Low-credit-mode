@@ -1,0 +1,4 @@
+interface:
+  display_name: "Low Credit Mode"
+  short_description: "Keep essential work focused when allowance is low"
+  default_prompt: "Use $low-credit-mode to complete this task while conserving my remaining allowance."

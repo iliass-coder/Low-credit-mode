@@ -1,0 +1,43 @@
+# Editor and operating system files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Isolated behavioral trial artifacts and raw model outputs
+/verification/behavioral-runs/
+
+# Local evaluation state, previous development reports, and generated releases
+/.local/
+/.private/
+/dist/
+/.codex/
+*.log
+*.jsonl
+*.har
+.coverage
+htmlcov/
+
+# Credentials and local account snapshots
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+/credentials.json
+/usage.json
+/quota.json
